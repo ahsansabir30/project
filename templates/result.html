@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Roles</title>
+</head>
+<body>
+    <h1>Permissions</h1>
+    <p><strong>Role:</strong> {{ role }}</p>
+    <p><strong>Permissions:</strong></p>
+    <ul>
+        {% for permission in permissions %}
+            <li>{{ permission }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
